@@ -22,25 +22,18 @@
   	
   	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2500">
 	  <div class="carousel-inner" role="listbox">
-	  	
-	<?php 
-	  		
-	  		echo '<div class="item active gallery-first-pic"><img src="">'
-
-	?>
-
-	<?php  
-
+		<?php 
+	  		echo '<div class="item active"><img src="'.$images[0].'">'
+		?>
+		<?php  
 			echo '</div>';
-	?>	
-	   
-	  
+		?>	
+		<?php 
+			for($i=1; $i < count($images); $i++) {
+				echo '<div class="item"><img src="'.$images[$i].'"></div>';
+			}
+		?>	
 
-	<?php 
-		for($i=0; $i < count($images)   ; $i++) {
-			echo '<div class="item"><img src="'.$images[$i].'"></div>';
-		}
-	?>	
   	  </div><!--End of carousel inner-->
 	  	<!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

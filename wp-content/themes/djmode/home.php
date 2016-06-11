@@ -14,7 +14,7 @@
     <?php endwhile; ?>
   <?php endif ?>
 
-  <div class="homeContainer col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-10 col-xs-offset-1"></div>
+  <div class="homeContainer col-md-8 col-sm-8 col-xs-12"></div>
 
 
 <?php get_footer(); ?>

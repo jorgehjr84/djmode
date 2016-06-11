@@ -10,12 +10,13 @@
 <?php get_header(); ?>
 
   <div class="contactContainer col-md-8 col-sm-8 col-xs-12">
-  	<a class="col-md-8 col-md-offset-3 col-sm-8  col-sm-offset-3 col-xs-8 col-xs-offset-3" target="_blank" href="http://alamodenewyorkcity.bigcartel.com">Email</a>
-  	<a class="col-md-8 col-md-offset-3 col-sm-8  col-sm-offset-3 col-xs-8 col-xs-offset-3" target="_blank" href="http://alamodenewyorkcity.bigcartel.com">Maybe a Phone Number</a>
+  	<a class="contact-email col-md-8 col-md-offset-1 col-sm-8  col-sm-offset-1 col-xs-8 col-xs-offset-1" target="_blank" href="mailto:info@djmode.com">info@djmode.com</a>
+  	<!-- <a class="col-md-8 col-md-offset-3 col-sm-8  col-sm-offset-3 col-xs-8 col-xs-offset-3" target="_blank" href="http://alamodenewyorkcity.bigcartel.com">Maybe a Phone Number</a> -->
   	<ul>
-  		<li><a class="twitter-link" href=""></a></li>
-  		<li><a class="facebook-link" href=""></a></li>
-  		<li><a class="instagram-link" href=""></a></li>
+  		<li><a class="twitter-link" target="_blank" href=""></a></li>
+  		<li><a class="facebook-link" target="_blank" href=""></a></li>
+  		<li><a class="instagram-link" target="_blank" href=""></a></li>
+  		<li><a class="soundcloud-link" target="_blank" href="https://soundcloud.com/therealmode"></a></li>
   	</ul>
 
   </div>

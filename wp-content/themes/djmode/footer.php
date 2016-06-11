@@ -1,6 +1,6 @@
 
 <div class="footer">
-    Copyright &copy DJMODE
+    Copyright &copy MYMUSICEXPERIENCEINC
   </div>
 
 <script>document.body.className += ' fade-out';</script>

@@ -33,16 +33,27 @@
 
 body{
 	height: 100%;
-	background-image: url("../../modepics/White-Brick-Wallpaper1.jpg");
+	/*background: #283048;*/ /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #283048 , #859398);  Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #283048 , #859398);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+/*Horizon*/
+background: #003973; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+	/*background-image: url("../../modepics/White-Brick-Wallpaper1.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 10%;
+	background-repeat: no-repeat;*/
+	/*background-position: 50% 10%;*/
 }
 li{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 a{
-font-family: 'Josefin Sans', sans-serif;	
+	font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -50,12 +61,12 @@ font-family: 'Josefin Sans', sans-serif;
 
 /*Home Styling*/
 .homeContainer{
-   height: 94%;
+   height: 100%;
    background-image: url("../../modepics/modepic1.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 50% 10%;
-   margin-top: 1em;
+   float: right;
 }
 
 /*Bio Styling*/
@@ -78,7 +89,7 @@ font-family: 'Josefin Sans', sans-serif;
   overflow: scroll;
 }
 .bioTextBlock p{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -129,8 +140,9 @@ font-family: 'Josefin Sans', sans-serif;
   	margin-top: .2em;
 }
 .sidebarLinks a{
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(35,62,116);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   font-size: 2.75em;
 }
 .sidebarLinks_last{
@@ -142,7 +154,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 .sidebarLinks_last a{
 	color: black;
-  	font-family: helvetica;
+  	font-family: 'Titillium Web', sans-serif;
   	font-size: 2em;
 }
 .sidebarLinks a:hover{
@@ -160,7 +172,7 @@ font-family: 'Josefin Sans', sans-serif;
 /*Gallery Styling*/
 .galleryContainer{
    height: 100%;
-   background-image: url("../../modepics/mode-gallery-pic.jpg");
+   /*background-image: url("../../modepics/mode-gallery-pic.jpg");*/
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 50% 10%;
@@ -180,33 +192,9 @@ font-family: 'Josefin Sans', sans-serif;
 	right: 0;  
 	margin: auto;
 }
-.gallery-first-pic h1{
- 	color: black;
- 	max-height: 100%;  
-	width: 50%; 
-	position: absolute;  
-	/*top: 0;  
-	bottom: 0;  
-	left: 0;  
-	right: 0;  */
-	margin: auto;
- 	
- 	
-
- /*  height: 100%;
-   background-image: url("../../gallerypics/modedownloadpic.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
-   max-height: 100%;  
-	max-width: 100%; 
-	position: absolute;  
-	top: 0;  
-	bottom: 0;  
-	left: 0;  
-	right: 0;  
-	margin: auto;*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
-
 
 /*Videos Styling*/
 .videosContainer{
@@ -251,8 +239,8 @@ font-family: 'Josefin Sans', sans-serif;
 	transition: 1s;
 }
 .music-title{
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: bolder;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	margin-top: 15em;
 	margin-bottom: 15em;
@@ -343,6 +331,11 @@ font-family: 'Josefin Sans', sans-serif;
 	margin-right: 10em;
 	margin-right: 10em;
 }
+.contact-email{
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 4em;
+
+}
 .twitter-link{
 	background-image: url("../../modepics/twittericon.png");
 	height: 8%;
@@ -372,6 +365,16 @@ font-family: 'Josefin Sans', sans-serif;
    /*background-position: 50% 10%;*/
    position: absolute;
    bottom: .5em;
+}
+.soundcloud-link{
+	background-image: url("../../modepics/soundcloudicon.png");
+	height: 15%;
+	width: 1.5em;
+	background-size: cover;
+   background-repeat: no-repeat;
+   
+   position: absolute;
+   bottom: .4em;
 }
 
 /*Blog Styling*/

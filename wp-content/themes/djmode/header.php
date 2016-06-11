@@ -3,7 +3,7 @@
 	<title>DJ Mode</title>
 	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
 	<link href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.min.js"></script>
 
