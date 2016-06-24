@@ -1,59 +1,26 @@
 /*Header Styling*/
-/*.social-icons li{
-	list-style-type: none;
-	position: absolute;
-	top: 0;
-
+.navbar-header{
+	background: #003973; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
 }
-.twitter-icon{
-   height: auto;
-   background-image: url("../../modepics/twittericon.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: 50% 10%;
-   float: right;
+.navbar {
+    border-bottom: 0 !important;
 }
-.instagram-icon{
-   height: 10%;
-   background-image: url("../../modepics/instagram.svg");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: 50% 10%;
-   float: right;
-}
-.facebook-icon{
-   height: 10%;
-   background-image: url("../../modepics/facebookicon.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: 50% 10%;
-   float: right;
-}*/
-
 
 body{
-	height: 100%;
-	/*background: #283048;*/ /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #283048 , #859398);  Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #283048 , #859398);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-/*Horizon*/
-background: #003973; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-
-	/*background-image: url("../../modepics/White-Brick-Wallpaper1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;*/
-	/*background-position: 50% 10%;*/
+	height: 100%;    
+	/*Horizon*/
+	background: #003973; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 li{
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a{
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -67,6 +34,7 @@ a{
    background-repeat: no-repeat;
    background-position: 50% 10%;
    float: right;
+   overflow: auto;
 }
 
 /*Bio Styling*/
@@ -77,6 +45,7 @@ a{
    background-repeat: no-repeat;
    background-position: 50% 10%;
    float: right;
+   overflow: auto;
 }
 .bioTextBlock{
   background: rgba(0, 0, 0, 0.5);
@@ -89,7 +58,7 @@ a{
   overflow: scroll;
 }
 .bioTextBlock p{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -141,8 +110,8 @@ a{
 }
 .sidebarLinks a{
   color: rgb(35,62,116);
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 2.75em;
 }
 .sidebarLinks_last{
@@ -154,7 +123,7 @@ a{
 }
 .sidebarLinks_last a{
 	color: black;
-  	font-family: 'Titillium Web', sans-serif;
+  	font-family: 'Montserrat', sans-serif;
   	font-size: 2em;
 }
 .sidebarLinks a:hover{
@@ -239,15 +208,26 @@ a{
 	transition: 1s;
 }
 .music-title{
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
-	margin-top: 15em;
+	margin-top: 10em;
 	margin-bottom: 15em;
 }
 .mixesContainer p{
 	color: white;
 	font-size: 3em;
+	/*margin-top: 2em;*/
+
+}
+.wp-audio-shortcode{
+	margin-top: 2em;
+	margin-bottom: 10em;
+}
+.mixesContainer img{
+	width: 9em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -314,68 +294,71 @@ a{
    background-repeat: no-repeat;
    background-position: 50% 10%;
    float: right;
-}
-.contactContainer a{
-	color: white;
-	font-size: 6em;
-}
-.contactContainer ul{
-	list-style-type: none;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-.contactContainer ul li{
-	display: inline-block;
-	margin-right: 10em;
-	margin-right: 10em;
+   overflow: auto;
 }
 .contact-email{
-	font-family: 'Titillium Web', sans-serif;
-	margin-top: 4em;
-
+	text-decoration: none;
+	color: white;
+	font-size: 4em;
+	position: relative;
+	top: 5em;
+	transition: 1s;
+	text-align: center;
 }
+.contact-email li:hover{	
+	text-decoration: none;
+}
+.contact-links li:hover{	
+	text-decoration: none;
+}
+.contact-links{
+	list-style: none;
+	height: auto;
+	margin-top: 5em;
+	text-align: center;
+}
+.contact-links li{	
+	display: inline-block;
+	position: relative;
+	top: 20em;
+	transition: 1s;
+}
+
+/*Links*/
 .twitter-link{
-	background-image: url("../../modepics/twittericon.png");
-	height: 8%;
-	width: .6em;
-	background-size: cover;
-   background-repeat: no-repeat;
-   /*background-position: 50% 10%;*/
-   position: absolute;
-   bottom: .5em;
+	background-image: url("../../modepics/twitter.svg");
+	display: inline-block;
+	height: 5em;
+	width: 5em;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .facebook-link{
-	background-image: url("../../modepics/facebookicon.png");
-	height: 8%;
-	width: .6em;
-	background-size: cover;
-   background-repeat: no-repeat;
-   /*background-position: 50% 10%;*/
-   position: absolute;
-   bottom: .5em;
+	background-image: url("../../modepics/facebook.svg");
+	display: inline-block;
+	height: 5em;
+	width: 5em;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .instagram-link{
-	background-image: url("../../modepics/instagramicon.svg");
-	height: 8%;
-	width: .6em;
-	background-size: cover;
-   background-repeat: no-repeat;
-   /*background-position: 50% 10%;*/
-   position: absolute;
-   bottom: .5em;
+	background-image: url("../../modepics/Instagram.png");
+	display: inline-block;
+	height: 5em;
+	width: 5em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
 }
 .soundcloud-link{
-	background-image: url("../../modepics/soundcloudicon.png");
-	height: 15%;
-	width: 1.5em;
-	background-size: cover;
-   background-repeat: no-repeat;
-   
-   position: absolute;
-   bottom: .4em;
+	background-image: url("../../modepics/soundcloud.svg");
+	display: inline-block;
+	height: 8em;
+	width: 8em;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
+
 
 /*Blog Styling*/
 .blog-content img{
@@ -387,43 +370,43 @@ a{
 
 /*Footer Styling*/
 .footer{
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  color: white;
-  padding-top: 1em;
+	width: 90%;
+  	text-align: center;
+  	position: absolute;
+  	bottom: .5em;
+  	color: white;
+  	margin-left: 25%;
 }
 
 
 .c1{
 	height: auto;
-   background-image: url("../../gallerypics/1.jpg");
-   background-size: cover;
-}
-/*
-
-
-body {
-    opacity: 1;
-    transition: .5s opacity;
-}
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-html {
-    background-color: white;
+  	background-image: url("../../gallerypics/1.jpg");
+  	background-size: cover;
 }
 
-*/
-@media (min-width: 768px){
-	.navbar{
-		display: none;
+
+
+@media (max-width: 415px){
+	.bioTextBlock{
+		margin-top: 6em;
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 514px){
+	.bioTextBlock{
+		margin-top: 10em;
+	}
+	.homeContainer{
+		height: 70% !important;
+		margin-top: 15%;
+	}
+	.contact-email{
+	font-size: 2em !important;	
+	}
+}
+
+@media (max-width: 767px){
 	nav{
 		background-color: white !important;
 		margin-bottom: 0 !important;
@@ -467,7 +450,14 @@ html {
 	.contactContainer{
    		height: 91.3%;
 	}
-
+	.contact-email{
+		font-size: 2.25em;
+		position: relative;
+		top: 6em;
+	}
+	.footer{
+		margin-left: 9%;
+	}
 }
 
 
@@ -482,17 +472,48 @@ html {
 	}
 }
 
-@media (max-width: 514px){
-	.bioTextBlock{
-		margin-top: 10em;
+@media (max-width: 992px){
+	.mixesContainer img{
+	width: 6em;
+	margin-left: auto;
+	margin-right: auto;
 	}
-	.homeContainer{
-		height: 70% !important;
-		margin-top: 15%;
+	.contact-email{
+		font-size: 3.5em;
+		z-index: 999;
 	}
+	.contact-links li{	
+	margin-bottom: 4em;
+	}	
 }
-@media (max-width: 415px){
-	.bioTextBlock{
-		margin-top: 6em;
+
+@media (min-width: 768px){
+	.navbar{
+		display: none;
 	}
+	.contact-links li:hover{	
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 19em;
+	transition: 1s;
+	}
+	.contact-email:hover{
+	text-decoration: none !important;
+	color: white;
+	position: relative;
+	top: 4.85em;
+	transition: 1s;
+	}
+
+}
+
+ .navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
